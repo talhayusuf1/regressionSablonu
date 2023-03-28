@@ -47,3 +47,16 @@ plt.scatter(X,Y)
 plt.plot(X,lin_reg3.predict(poly_reg3.fit_transform(X)))
 plt.show()
 
+# tahminler
+
+print(lin_reg.predict(11))
+print(lin_reg.predict(6.6))
+
+print(lin_reg2.predict(poly_reg.fit_transform(11)))
+print(lin_reg2.predict(poly_reg.fit_transform(6.6)))
+
+
+
+
+
+
